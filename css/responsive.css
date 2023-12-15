@@ -1,0 +1,136 @@
+@media (max-width: 1170px){
+    /* general */
+    .section-subtitle{
+        max-width: 100%;
+
+    }
+    
+   
+
+}
+
+
+@media (max-width: 991px){
+    /* general */
+    .about .banner_section, 
+    .product .banner_section,
+    .gallery .banner_section,
+    .contact .banner_section,
+    .distributors .banner_section{
+ 
+ padding-top: 12.5rem;
+ padding-bottom:3rem;
+
+    }
+
+     /* navbar */
+     .header .navbar{
+        background-size: cover;
+        padding:1.5rem ;
+       
+    }
+
+
+
+    .header .navbar-nav{
+        margin-top: 2rem;
+    }
+    .header .navbar-nav .nav-link{
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+
+    }
+    .header .header_right span{
+        padding: 0.2rem 0.5rem;
+    }
+
+    .about .about-tag{
+    text-align: left;
+     padding:0rem;
+     font-size: 32px;
+     }
+ .about .feature_section .row{
+    position: relative;
+    left: 6rem;
+ }
+ .about .about_section img{
+    width: 100%
+ }
+
+ .about .about_section .cult{
+    padding-top: 4rem;;
+ }
+
+ .about .about_section ,
+ .about  h2, 
+ .about  .about-details 
+ {
+    padding: 0 ;
+ }
+ 
+}
+
+
+@media (max-width: 787px) {
+    body, html{
+        font-size: 8px;
+        overflow-x: hidden;
+    }
+    .section-subtitle{
+        max-width: 80%;
+    }
+    
+    
+   
+
+    /* banner */
+    .banner-section{
+        height: 80vh;
+    }
+
+    .banner-section .carousel-caption{
+    top: 20%;
+   
+}
+
+.about .about-tag{
+    font-size: 24px;
+    }
+
+
+}
+
+@media (max-width: 590px) {
+    body, html{
+        font-size: 6px;
+        
+    }
+    
+    
+    .banner-section{
+        height: 70vh;
+    }
+
+    .about .about_section ,
+    .about  h2, 
+    .about  .about-details 
+    {
+       padding: 0 2rem ;
+    }
+    
+  
+}
+@media (max-width: 380px) {
+    body, html{
+        font-size: 5px;
+    }
+    
+  
+}
+
+@media (max-width: 300px) {
+    body, html{
+        font-size: 4px;
+    }
+  
+}

@@ -1,0 +1,4 @@
+bootstrap5 - Carousel, navbar
+html, css, js
+fontawesome-icons
+
